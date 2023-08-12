@@ -1,34 +1,96 @@
+/* Estilos generales */
 body {
-    background-color:#899B9F;
-    color: #0D0D0D;
+  font-family: "Helvetica Now", Arial, sans-serif;
+  background-color: #F0EEC9;
+  color: #4BA2AC;
+  margin: 0;
+  padding: 0;
 }
 
-.titulos{
-    background-color: #495958;
-    font: 20px Arial, Helvetica, sans-serif;
-    text-align:center; 
-    font-style: italic;
-    font-weight: bold;
+/* Encabezado */
+header {
+  font-family: "Helvetica Now", Arial, sans-serif;
+  background-color: #50C9BA;
+  padding: 20px;
+  text-align: center;
+  color: #F0EEC9;
 }
 
-.parrafos{
-    text-align: justify;
-    font: 15px Arial, Helvetica, sans-serif;
+header h1 {
+  margin: 0;
+  font-size: 36px;
 }
 
-.puntos{
-    text-decoration: underline;
-    font-weight: bold;
+/* Navegación */
+nav {
+  background-color: #9EE6CF;
+  padding: 10px;
+  text-align: center;
 }
 
-img{
-    width:120px;
+nav a {
+  color: #4BA2AC;
+  text-decoration: none;
+  margin: 0 10px;
+  font-weight: bold;
 }
 
-#a1{
-    background-color: rgb(80, 255, 249);  
+/* Estilos para encabezados */
+h2, h3 {
+  color: #50C9BA;
 }
 
-#a2{
-    background-color: rgb(150, 80, 255); 
+/* Estilos para enlaces */
+a {
+  color: #9EE6CF;
+  text-decoration: none;
+  transition: color 0.3s ease-in-out;
+}
+
+a:hover {
+  color: #4BA2AC;
+}
+
+/* Sección destacada */
+.featured-section {
+  background-color: #9EE6CF;
+  padding: 40px;
+  text-align: center;
+  color: #F0EEC9;
+}
+
+.featured-section h2 {
+  font-size: 24px;
+}
+
+/* Pie de página */
+footer {
+  background-color: #4BA2AC;
+  padding: 20px;
+  text-align: center;
+  color: #F0EEC9;
+}
+
+footer p {
+  margin: 0;
+}
+
+/* Botones */
+.button {
+  background-color: #50C9BA;
+  color: #F0EEC9;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+.button:hover {
+  background-color: #4BA2AC;
+  color: #F0EEC9;
+}
+
+image{
+    float: left;
 }
