@@ -1,99 +1,44 @@
-/* Estilos generales */
 body {
-  font-family: "Helvetica Now", Arial, sans-serif;
+  font-family: 'Mitr', sans-serif;
   background-color: #F0EEC9;
   color: #4BA2AC;
-  margin: 0;
-  padding: 0;
 }
 
-/* Encabezado */
-header {
-  font-family: "Helvetica Now", Arial, sans-serif;
-  background-color: #50C9BA;
-  padding: 20px;
-  text-align: center;
-  color: #F0EEC9;
+h1 {
+    font-family: 'Lobster', cursive;
+    margin-top: 50px;
+    font-size: 90px;
+    text-align: center;
+    margin-bottom: 8px;
+}
+p{
+    font-size: 30;
 }
 
-header h1 {
-  margin: 0;
-  font-size: 36px;
+.texto p{
+    margin-bottom: 5px;
+    text-align: center;
+    font-size: 18x;
 }
 
-/* Navegación */
-nav {
-  background-color: #9EE6CF;
-  padding: 10px;
-  text-align: center;
+#siguiente{
+    color: #50C9BA;
+    text-align: center; 
+    font-family: Arial, Helvetica, sans-serif
 }
 
-nav a {
-  color: #4BA2AC;
-  text-decoration: none;
-  margin: 0 10px;
-  font-weight: bold;
-}
-
-/* Estilos para encabezados */
-h2, h3 {
-  color: #50C9BA;
-}
-
-/* Estilos para enlaces */
 a {
   color: #9EE6CF;
   text-decoration: none;
   transition: color 0.3s ease-in-out;
 }
 
-a:hover {
-  color: #4BA2AC;
-}
-
-/* Sección destacada */
-.featured-section {
-  background-color: #9EE6CF;
-  padding: 40px;
-  text-align: center;
-  color: #F0EEC9;
-}
-
-.featured-section h2 {
-  font-size: 24px;
-}
-
-/* Pie de página */
-footer {
-  background-color: #4BA2AC;
-  padding: 20px;
-  text-align: center;
-  color: #F0EEC9;
-}
-
-footer p {
-  margin: 0;
-}
-
-/* Botones */
-.button {
-  background-color: #50C9BA;
-  color: #F0EEC9;
-  padding: 10px 20px;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
-}
-
-.button:hover {
-  background-color: #4BA2AC;
-  color: #F0EEC9;
-}
-
 img{
-  float: left;
-  margin: 20px;
-  width: 200px; /* Cambia el valor según tus necesidades */
-  height: 150px;
+  text-align: center;
+  width: 250px; 
+  height: 250px;
+}
+.contenedor img {
+    display: block; 
+    margin: 0 auto; 
 }
