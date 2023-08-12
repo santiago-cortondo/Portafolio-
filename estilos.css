@@ -93,6 +93,7 @@ footer p {
 
 img{
   float: left;
-  margin: 10px;
-  size: 2px;
+  margin: 20px;
+  width: 200px; /* Cambia el valor según tus necesidades */
+  height: 150px;
 }
