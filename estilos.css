@@ -92,5 +92,8 @@ footer p {
 }
 
 image{
-    float: left;
+    img {
+  float: left;
+  margin: 10px;
+}
 }
