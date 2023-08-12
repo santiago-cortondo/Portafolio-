@@ -15,22 +15,17 @@ p{
     font-size: 30;
 }
 
-.texto p{
+.texto {
     margin-bottom: 5px;
     text-align: center;
     font-size: 18x;
 }
 
-#siguiente{
-    color: #50C9BA;
-    text-align: center; 
-    font-family: Arial, Helvetica, sans-serif
-}
-
-a {
-  color: #9EE6CF;
+.siguiente a {
+  color: black;
   text-decoration: none;
-  transition: color 0.3s ease-in-out;
+  text-align: center; 
+  font-family: Arial, Helvetica, sans-serif
 }
 
 img{
