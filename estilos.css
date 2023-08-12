@@ -21,10 +21,13 @@ p{
     font-size: 18x;
 }
 
+a{
+  text-align: left; 
+}
 .siguiente a {
   color: black;
   text-decoration: none;
-  text-align: center; 
+  
   font-family: Arial, Helvetica, sans-serif
 }
 
