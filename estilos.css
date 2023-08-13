@@ -5,29 +5,26 @@ body {
 }
 
 h1 {
-    font-family: 'Lobster', cursive;
-    margin-top: 50px;
-    font-size: 90px;
-    text-align: center;
-    margin-bottom: 8px;
+  font-family: 'Lobster', cursive;
+  margin-top: 50px;
+  font-size: 90px;
+  text-align: center;
+  margin-bottom: 8px;
 }
 p{
-    font-size: 30;
+  font-size: 30;
 }
 
 .texto {
-    margin-bottom: 5px;
-    text-align: center;
-    font-size: 18x;
+  margin-bottom: 5px;
+  text-align: center;
+  font-size: 18x;
 }
 
-a{
-  text-align: left; 
-}
-.siguiente a {
+.siguiente {
   color: black;
   text-decoration: none;
-  
+  text-align: center; 
   font-family: Arial, Helvetica, sans-serif
 }
 
@@ -37,6 +34,6 @@ img{
   height: 250px;
 }
 .contenedor img {
-    display: block; 
-    margin: 0 auto; 
+  display: block; 
+  margin: 0 auto; 
 }
